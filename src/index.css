@@ -8,3 +8,25 @@
     font-family: 'cosi Azure';
     src: url(./assets/fonts/CosiAzure-Bold.ttf);
 }
+
+:root{
+    --color-black: #050505;
+    --color-light: #f7f7f7;
+}
+
+html,body{
+    overflow-x:hidden;
+}
+html{
+    font-size:62.5;
+}
+body{
+    background-color: var(--color-black);
+    color: var(--color-light);
+    font-family: "Michroma", sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+
+}
